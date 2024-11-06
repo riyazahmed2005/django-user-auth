@@ -1,0 +1,46 @@
+body{
+    display: flex;
+    margin: 0%;
+    padding: 0%;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+}
+
+.parent{
+    border-radius: 5px;
+    border: solid black 1px;
+    text-align: center;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 10px;
+    height: 300px;
+    width: 600px;
+    margin: 10px;
+    box-shadow: 1px;
+    background-color: wheat;
+}
+
+input{
+    width: 85%;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    border: solid black 1px;
+    border: none;
+}
+
+button{
+    border: none;
+    background-color: rgb(59, 243, 46);
+    width: 30%;
+    padding: 10px;
+    border-radius: 5px;
+    
+}
+button:hover{
+    background-color: green;
+    color: black;
+}
